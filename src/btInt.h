@@ -16,11 +16,13 @@
 
 /* #define BT_STDERR_DEBUG 1 */
 
+#ifndef __SQLITE4_INT__
 typedef sqlite4_int64 i64;
 typedef sqlite4_uint64 u64;
 typedef unsigned int u32;
 typedef unsigned short u16;
 typedef unsigned char u8;
+#endif
 
 typedef struct BtDbHdr BtDbHdr;
 

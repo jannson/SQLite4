@@ -38,7 +38,7 @@ typedef struct WhereClause WhereClause;
 typedef struct WhereMaskSet WhereMaskSet;
 typedef struct WhereOrInfo WhereOrInfo;
 typedef struct WhereAndInfo WhereAndInfo;
-typedef struct WhereLevel WhereLevel;
+//typedef struct WhereLevel WhereLevel;
 typedef struct WhereLoop WhereLoop;
 typedef struct WherePath WherePath;
 typedef struct WhereTerm WhereTerm;
